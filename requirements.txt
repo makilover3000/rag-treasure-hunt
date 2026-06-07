@@ -1,0 +1,10 @@
+python-dotenv==1.0.1 # For reading environment variables stored in .env file
+langchain==0.2.2
+langchain-community==0.2.3
+langchain-openai==0.1.8 # For embeddings
+chromadb==0.5.0 # Vector storage
+openai==1.31.1 # For embeddings
+httpx==0.27.2 # openai==1.31.1 is incompatible with httpx>=0.28 (removed 'proxies' kwarg)
+tiktoken  # For embeddings (unpinned: 0.7.0 has no prebuilt wheel for newer Python, needs Rust to build)
+rich==13.7.1 # For the victory screen
+pyfiglet==1.0.2 # For big ASCII art letters in the victory screen
